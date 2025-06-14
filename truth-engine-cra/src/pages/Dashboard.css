@@ -1,0 +1,180 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.dashboard-heading {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #0077cc;
+  text-align: center;
+}
+
+.stat-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #00bcd4, #0077cc);
+  color: white;
+  flex: 1 1 28%;
+  min-width: 180px;
+  padding: 1.8rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+.stat-card h3 {
+  font-size: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+.stat-card p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Recent Topics */
+
+.recent-topics {
+  margin-bottom: 3rem;
+}
+
+.recent-heading {
+  font-size: 1.8rem;
+  color: #0077cc;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.recent-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recent-item {
+  background: #f0f8ff;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem 0;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #004a8f;
+  box-shadow: 0 2px 8px rgba(0, 100, 180, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.recent-item:hover {
+  background-color: #d0ebff;
+  cursor: pointer;
+}
+
+/* Quick Tips Section */
+
+.quick-tips {
+  background: #e3f2fd;
+  border-left: 6px solid #0077cc;
+  padding: 1.5rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 15px rgba(0, 119, 204, 0.15);
+  font-size: 1rem;
+  color: #004a8f;
+}
+
+.tips-heading {
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.tips-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.tip-item {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Feedback Section */
+
+.feedback-section {
+  max-width: 700px;
+  margin: 0 auto 4rem auto;
+  padding: 1.5rem 2rem;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  color: #222;
+  text-align: center;
+}
+
+.feedback-heading {
+  margin-bottom: 1rem;
+  color: #0077cc;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.feedback-input {
+  width: 100%;
+  height: 100px;
+  border: 2px solid #0077cc;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.feedback-input:focus {
+  outline: none;
+  border-color: #005fa3;
+  box-shadow: 0 0 8px #005fa3;
+}
+
+.submit-feedback {
+  background: linear-gradient(135deg, #00bcd4, #0077cc);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-feedback:hover {
+  background: #005fa3;
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.6);
+}
