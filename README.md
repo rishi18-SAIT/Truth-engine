@@ -14,24 +14,7 @@ A responsive and interactive frontend for the Truth Engine application — a pla
 
 ✨ Clean layout and styling using plain CSS
 
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/truth-engine-frontend.git
-cd truth-engine-frontend
 
-🧾 Folder Structure
-src/
-├── assets/            # Images and static assets
-├── components/        # Reusable UI components (optional)
-├── pages/             # Main views like Dashboard, Home
-├── App.js             # Main app component
-├── index.js           # Entry point
-└── styles/            # CSS files (if separated)
-
-📷 Screenshots
-🧠 Dashboard View
-
-Displays analysis statistics and recent trending topics.
 
 🛠️ Technologies Used
 
