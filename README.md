@@ -1,66 +1,72 @@
-# 🔍 Truth Engine - Frontend
+🔍 Truth Engine - Frontend
 
-A responsive and interactive frontend for the **Truth Engine** application — a platform that detects fake news and analyzes emotions on trending topics. Built using **React.js** with a clean UI and dashboard overview.
 
----
+🚀 Live Demo: truth-engine.netlify.app
 
-## ⚙️ Features
+A responsive and interactive frontend for the Truth Engine — a platform that detects fake news and analyzes emotions on trending topics.
+Built with React.js and styled using plain CSS for a clean, modern interface.
 
-- 🖥️ Dashboard overview with statistics and recent topics
-- 📊 Visual representation of fake news analysis and emotion trends
-- 📸 Responsive image display from local assets
-- ✨ Clean layout and styling using plain CSS
+⚙️ Features
 
----
+🖥️ Dashboard Overview – Displays statistics and trending topics
 
-## 🚀 Getting Started
+📊 Visual Analysis – Fake news detection and emotion trend visualization
 
-### 1. Clone the repository
+📸 Responsive Design – Optimized for all screen sizes
 
-```bash
+🎨 Clean Layout – Simple UI with plain CSS styling
+
+🚀 Getting Started
+1. Clone the repository
 git clone https://github.com/your-username/truth-engine-frontend.git
 cd truth-engine-frontend
-🧾 Folder Structure
+npm install
+npm start
 
+🧾 Folder Structure
 src/
 ├── assets/            # Images and static assets
-├── components/        # Reusable UI components (optional)
+├── components/        # Reusable UI components
 ├── pages/             # Main views like Dashboard, Home
 ├── App.js             # Main app component
 ├── index.js           # Entry point
 └── styles/            # CSS files (if separated)
+
 📷 Screenshots
 🧠 Dashboard View
+
 Displays analysis statistics and recent trending topics.
-
-![truth-engine](https://github.com/user-attachments/assets/7b68f3e6-c266-45cf-9cce-1d903937b6fb)
-
 
 
 🛠️ Technologies Used
-React.js – Frontend UI library
 
-CSS – For styling (no frameworks used)
+⚛️ React.js – Frontend UI library
 
-React Router (if used) – For page navigation
+🎨 CSS – For styling (no frameworks used)
 
-Local assets – Images and visuals used in the UI
+🌍 React Router – For page navigation (if implemented)
 
-📌 Future Enhancements
-🌐 Connect with backend for dynamic data
+🖼️ Local Assets – Images and visuals for UI elements
 
-📈 Integrate charting libraries (e.g., Chart.js or Recharts)
+📈 Future Enhancements
+
+🌐 Connect frontend with backend API for live data
+
+📊 Integrate charting libraries like Chart.js or Recharts
 
 🔍 Add search and filter functionality
 
-🙌 Author
-Rishi Kumar Singh
+💬 Enhance emotion analysis visualization
 
-Feel free to connect or contribute!
+🙌 Author
+
+Rishikesh Ranjan
+📧 rishikesh9098@gmail.com
+
+💼 LinkedIn
+
+🐙 GitHub
 
 📄 License
+
 This project is licensed under the MIT License.
-
-
-
-Let me know if you'd like to include live links (e.g., Netlify or Vercel), or I can generate badge
